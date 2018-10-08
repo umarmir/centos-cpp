@@ -10,7 +10,7 @@ RUN yum install -y zeromq-devel
 RUN yum groupinstall -y "Development Tools"                                     
 RUN yum -y update  
 
-# ########### Directries Needed ############
+########### Directries Needed ############
 ### For SSH
 RUN mkdir /var/run/sshd
 
